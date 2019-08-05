@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	background: #0b4467;
+	font-family: "Open Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 0.8rem;
+	overflow: scroll;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+.errorMessage {
+	color: rgb(243, 44, 44);
+	font-size: 10px;
+	text-align: left;
+	padding-left: 2px;
+}
+.errorM {
+	color: rgb(243, 44, 44);
+	background: #f2dede;
+
+	padding: 5px;
+}
+.w-80 {
+	width: 94% !important ;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	font-size: 10px;
+}
+#submitarrowButton {
+	background: none;
+	border: none;
+	border: 0px !important;
+	font-size: 1em;
+	background-color: #0b4467 !important;
+}
+#submitarrowButton:focus {
+	box-shadow: none !important;
+	color: #fff;
+}
+#submitarrowButton:hover {
+	box-shadow: none !important;
+	color: #fff;
+}
+.blue-btn:hover {
+	color: #fff !important;
+}
+.loading {
+	background: transparent
+		url("http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif")
+		center no-repeat;
+}
+.loading1 {
+	background: transparent url("../src/images/loading1.gif") center no-repeat;
+}
+.educationImg {
+	padding-top: 13px;
+	height: 90%;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	vertical-align: center;
+	margin: auto;
+}
+.fontSize {
+	font-size: 20px;
+}
+.nav-item {
+	padding: 0px 0px !important;
+
+	box-sizing: border-box;
+	outline: 2px solid rgb(255, 255, 255);
+
+	border-radius: 0px !important;
+}
+.nav-tab {
+	border-radius: 0px !important;
+}
+.nav-link {
+	padding: 8px !important;
+	height: 100% !important;
+	padding-top: 12px !important;
+	background-color: #e6ecf0;
+}
+.nav-item a span {
+	height: 100% !important;
+}
+.grey {
+	background-color: #fff;
+}
+.nav-item .nav-link:hover {
+	background: #fcdc9a !important;
+	color: #f58634 !important;
+	transition: all 0.5s;
+}
+.disabled {
+	pointer-events: none;
+	opacity: 0.75;
+}
+.fa {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}

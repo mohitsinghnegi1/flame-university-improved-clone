@@ -1,0 +1,8 @@
+var config = {
+	AccessKey: "u$r4547c012095b1b88bbf6a81e446e7ff4",
+	SecretKey: "8d09a5eeca6dfdb0a29d1cc97fbac7d75421f6b8",
+	Authorization:
+		"SXp4bHdrVTN6Uys2Z2IzaHcvNnVUc1RKZ2dia3I4RFoyVzdaTHlqZkF4NFVOL2JWMlpsazluNk0zdDYySUl6Z0Nwc0dibXVmRTBBSXl4bWlQNHBjYWsrYm5zazRabkJjbzNpc1JYYU5veTNRSFg0VGQzWld4UE1iS2xVQ216OWNISVJ4a1hCYkliT2h1dE1YcldRdmRSY0dDamIwK1VPNUtkMlA4MWRBVTY1dXRTYXBMYk9LZkw1UzZFeGZGd3V4Qkg4UVkrdEp0K2V5OE1MQ0hEYU5xZz09"
+};
+
+export default config;

@@ -1,0 +1,234 @@
+/*style.css*/
+.group {
+	display: flex;
+	justify-content: space-between;
+}
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.Header {
+	background: #fcae17;
+}
+.grey-background {
+	background: #e6ecf0;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.blue1 {
+	color: #0b4467;
+	font-weight: bold;
+}
+.forward-button {
+	height: 27px;
+	width: 60px;
+	display: flex;
+	align-items: center;
+	background: #0b4467;
+	color: cornflowerblue;
+}
+.fpswd {
+	color: #fff;
+}
+.fpswd:hover {
+	color: #fff;
+}
+/* styles for form -container*/
+.grey {
+	background: #e6ecf0;
+}
+.form-container {
+	background: #fff;
+}
+
+.input-label label {
+	color: #666;
+	font-weight: 400;
+	padding-bottom: 0px;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+}
+label {
+	display: inline-block;
+	max-width: 100%;
+	font-size: 11px;
+	display: flex;
+	text-align: left;
+	color: #666;
+	justify-content: left;
+	margin-bottom: 5px;
+	font-weight: 400;
+	cursor: default;
+}
+.form-control,
+option {
+	padding: 2px;
+}
+.form-control {
+	box-shadow: inset !important;
+	background: #efefef !important;
+	border: 1px solid rgb(226, 222, 222) !important;
+	font-size: 0.7rem;
+	border-radius: 0px;
+}
+option {
+	font-size: 0.7rem;
+}
+select {
+	padding: 0px !important;
+	height: 0.5rem;
+}
+.opt {
+	height: 26px !important;
+}
+.primary-color {
+	background: #0b4467 !important;
+}
+.primary-text-color {
+	color: #0b4467 !important;
+}
+.star-color {
+	color: #f03232;
+}
+.submit-btn {
+	padding: 8px !important;
+	padding: 7px 20px !important;
+	color: #fff;
+	border-radius: 0px;
+	box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
+	border: none !important;
+}
+.blue-btn {
+	padding: 4px 10px !important;
+	border-radius: 0px;
+
+	height: auto;
+	background: #0b4467;
+	border: none !important;
+
+	text-align: center;
+}
+
+.copyright {
+	color: #efefef;
+	font-size: 0.7rem;
+	font-weight: 700;
+}
+input {
+	border-radius: 0px !important;
+	padding: 5px 5px !important;
+}
+a {
+	cursor: pointer;
+	text-decoration: none !important;
+}
+@media only screen and (min-width: 996px) {
+	.border-r {
+		border-right: 1px solid rgba(230, 227, 227, 0.815);
+	}
+	.fpswd {
+		margin-left: -105px !important;
+	}
+}
+.pd40 {
+	padding-left: 40px;
+}
+.tooltip-inner {
+	padding: 6px 7px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	font-weight: 100;
+	font-size: 10px;
+	background: #0b4467;
+	padding: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 2px;
+}
+.centerize {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+.w-75 {
+	width: 85% !important;
+}
+@media only screen and (max-width: 800px) {
+	body {
+		font-size: 0.6em !important;
+	}
+	.w-75 {
+		width: 98% !important;
+	}
+}
+.focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 0.9) !important;
+}
+input#submitarrowButton {
+	background: none;
+	border: none;
+	background-color: #084d89 !important;
+	width: 60px;
+}
+.email,
+.password {
+	background: transparent !important;
+	padding-bottom: 5px !important;
+	border: none !important;
+	border-bottom: 1px solid #ffffff !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 0;
+	outline: transparent;
+	color: black;
+}
+.email:focus,
+.password:focus {
+	box-shadow: none !important;
+}
+.email:-internal-autofill-selected {
+	background-color: transparent !important;
+}
+.uline:hover {
+	text-decoration: underline;
+}
+
+#overlay {
+	position: fixed; /* Sit on top of the page content */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: transparent; /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	/*cursor: pointer;*/ /* Add a pointer on hover */
+}
+/*Style.css */
+.file-zoom-dialog.modal-v4.fullscreen.external .tab-content.mx-custom>.active, .lsq-external-form-container.modal-v4.fullscreen.external .tab-content.mx-custom>.active{
+    max-height:none!important;
+}
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
